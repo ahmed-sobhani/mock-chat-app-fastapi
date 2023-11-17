@@ -30,5 +30,3 @@ jobs:
             DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}  
         run: |
             docker build -t mock_chat_app .
-            docker tag mock_chat_app $DOCKER_USERNAME/repo:tag 
-            docker push $DOCKER_USERNAME/repo:tag 
