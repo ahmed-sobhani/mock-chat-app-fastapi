@@ -1,0 +1,7 @@
+fastapi[all]==0.104.1
+uvicorn[standard]==0.24.0.post1
+databases[sqlite]
+SQLAlchemy==2.0.23
+pytest
+pytest-cov
+gpt4free
